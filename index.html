@@ -1,51 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>books</title>
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
 
-<link rel="stylesheet" href="styles.css">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.login-box{
+    background:white;
+    padding:30px;
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+.login-box h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.input-box{
+    margin-bottom:15px;
+}
+
+.input-box input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+</style>
+
 </head>
 <body>
-    <button><a href="login.html">go to login</a></button>
-    <header>
-        <h1>RICH DAD POOR DAD</h1>
-        
-        <nav>
-            <a href="#">home</a>
-             <a href="#">about</a>
-              <a href="#">chapters</a>
-               <a href="#">contact</a>
-        </nav>
-    </header>
-   
-    <main>
-        <section>
-            
-        <img src="img/img 2.jpeg" width="300">
-            <p><I> <b>if you work for money,
-                <p>you give the power to</p>
-              <p>your employer.
-                if money works for you,</p>  
-               <p>you keep the power
-                and control it</p></b>
-        
-    
-        </I></p>
-        
-        
-        </section>
-        <section><img src="./img/img 4.jpeg" width="300">
-        
-</section>
-<section><img src="img/img 1.jpeg" width="300"><p><i>failure inspires winners.
-         <p><i>failuredefeats losers.</i></p>   
-        </i></p></section>
-        
-    </main>
-   
-<footer><p>&copy;  2026 by abdiwadud ID:144</p>
+
+<div class="login-box">
+    <h2>Login</h2>
+
+    <div class="input-box">
+        <input type="email" placeholder="Enter Email">
+    </div>
+
+    <div class="input-box">
+        <input type="password" placeholder="Enter Password">
+    </div>
+
+    <button><a href="index.html">login</a></button>
+</div>
 
 </body>
 </html>
